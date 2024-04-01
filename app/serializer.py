@@ -1,6 +1,6 @@
 import json
 import xml.etree.ElementTree as ElementTree
-from book import Book
+from app.book import Book
 
 
 class Serializer:

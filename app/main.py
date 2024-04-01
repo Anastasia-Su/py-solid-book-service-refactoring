@@ -1,7 +1,7 @@
-from book import Book
-from display import Display
-from print import Print
-from serializer import Serializer
+from app.book import Book
+from app.display import Display
+from app.print import Print
+from app.serializer import Serializer
 
 
 def main(book: Book, commands: list[tuple[str, str]]) -> None | str:
