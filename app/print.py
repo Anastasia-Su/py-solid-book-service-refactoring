@@ -2,6 +2,8 @@ from app.book import Book
 
 
 class Print:
+    cmd_type = "print"
+
     @staticmethod
     def console(book: Book) -> None:
         print(

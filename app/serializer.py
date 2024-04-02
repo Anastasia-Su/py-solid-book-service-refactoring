@@ -4,6 +4,8 @@ from app.book import Book
 
 
 class Serializer:
+    cmd_type = "serialize"
+
     @staticmethod
     def json(book: Book) -> str:
         return json.dumps({"title": book.title, "content": book.content})
